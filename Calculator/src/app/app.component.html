@@ -1,0 +1,15 @@
+<div class="container" style="text-align:center">
+<h1>
+  <br>Simple Calculator
+</h1>
+  <input style="height: 30px; text-align: center;"type="number" name="value1" [(ngModel)]="value1">
+  <input style="height: 30px; text-align: center;"type="number" name="value2" [(ngModel)]="value2">
+  <br>
+  <button style="height: 40px; margin-top: 7px;" (click)="add()">ADD</button>
+  <button style="height: 40px; margin-top: 7px;" (click)="sub()">SUB</button>
+  <button style="height: 40px; margin-top: 7px;" (click)="multiply()">MULTIPLY</button>
+  <button style="height: 40px; margin-top: 7px;" (click)="divide">DIVIDE</button>
+  <br>
+  <h3 style="border: solid 1px; width: 200px; margin-left: 200px; text-align: left; background-color: white; margin-top: 7px;">ANSWER : {{value3}}</h3>
+    <img width="150" alt="Angular Logo" src="https://www.evsu.edu.ph/wp-content/uploads/2017/08/favicon.png">
+</div>

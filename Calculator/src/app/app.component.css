@@ -1,0 +1,12 @@
+h1{
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: cursive;
+}
+.container{
+    border: solid 1px;
+    width: 600px;
+    height: 450px;
+    margin-left: 450px;
+    background-color: aquamarine;
+}
